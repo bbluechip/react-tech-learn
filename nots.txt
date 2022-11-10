@@ -1,0 +1,15 @@
+context api = global state manegement de diyebiliriz. 
+
+component sırasında propla kaydırma işlemi yapmaya props drilling denir.
+yukarıdan aşağıya şeklinde klasik biçimde prop yollanabilir.
+çok fazla iş yükünden kaçınmak için, context api çok faydalı, bir anda bir çok şeyin bir çok kişiye iletilmesine flooding denir. 
+global saklama alanı oluşturulup bu durum app'den kontrol edilir. 
+
+1) context oluşturma ve bunu paylaştırma yani =>> export yapma 
+2) <LoginContext.Provider value = {{user, setUser}}                                    => user obje iken setUser bir fonksiyondur. 
+    <App /> =>> tüm cihldlar useContext hook'u kullanarak bu propslara ulaşabilir.
+</LoginContext.Provider>
+
+3) const {user, setUser} = useContext( LoginContext ) =>> bir proje içerisinde birden fazla useContext olabilir.
+
+1 ) creating, 2)providing e)consuming aşamasıdır.
