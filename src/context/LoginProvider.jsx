@@ -14,7 +14,7 @@ const LoginProvider = ({ children }) => {
 
 // consuming Hook
 
-export const useLogginContext = () => {
+export const useLoginContext = () => {
   return useContext(LoginContext);
 };
 
