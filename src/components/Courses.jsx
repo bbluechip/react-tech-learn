@@ -39,7 +39,7 @@ const Courses = () => {
                 <Card.Body>
                   <Card.Title>{name}</Card.Title>
                   <Card.Text>{text}</Card.Text>
-                  <Button variant="danger">Detail</Button>
+                  <Button variant="info">Detail</Button>
                 </Card.Body>
               </Card>
             </Col>

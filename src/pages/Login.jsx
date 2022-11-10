@@ -2,7 +2,7 @@ import { useContext } from "react";
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import { LoginContext } from "../context/LoginContext";
+import { LoginContext } from "../context/LoginProvider";
 import { useNavigate } from "react-router-dom";
 
 const Login = () => {
@@ -43,7 +43,7 @@ const Login = () => {
           />
         </Form.Group>
         <Container className="text-center">
-          <Button variant="danger" type="submit">
+          <Button variant="info" type="submit">
             Submit
           </Button>
         </Container>

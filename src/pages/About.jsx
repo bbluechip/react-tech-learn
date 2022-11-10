@@ -4,11 +4,11 @@ import Col from "react-bootstrap/Col";
 
 const About = () => {
   return (
-    <Container className="p-3">
-      <h1 className="text-center align-items-center justify-content-center ">
+    <Container className="p-3 ">
+      <h1 className="text-center align-items-center justify-content-center">
         ABOUT US
       </h1>
-      <Row className="text-center justify-content-center">
+      <Row className="text-center justify-content-center align-items-center ">
         <Col md={6} lg={4}>
           <i className="fas fa-globe-americas fa-2x"></i>
           <h4>Online Courses</h4>

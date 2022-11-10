@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Image from "react-bootstrap/Image";
 import { useContext } from "react";
-import { LoginContext } from "../context/LoginContext";
+import { LoginContext } from "../context/LoginProvider";
 
 function Navs() {
   const { user, setUser } = useContext(LoginContext);
@@ -15,7 +15,7 @@ function Navs() {
           <Link className="nav-link" to="/">
             <Image
               width={"200px"}
-              src="https://clarusway.com/wp-content/uploads/2022/02/Adsiz-tasarim-4-1024x265.png"
+              src="https://media-exp1.licdn.com/dms/image/C4E1BAQEtdkRSItgl3Q/company-background_10000/0/1564366560958?e=2147483647&v=beta&t=G_dIjtLTFj5Oz5HimC3FuCkY3uDL-paMwFvy3GvEPJ8"
               alt="logo"
             />
           </Link>
