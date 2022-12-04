@@ -12,7 +12,7 @@
 👉 Github & Git commands (push, pull, commit, add etc.)
 
 ## Description
-Made this website to improve my private router, context-api skills.
+Made this website to improve my private router, context-api skills. (The members can only see people section)
 
 # Getting Started with Create React App
 clone repository to your own local file and
